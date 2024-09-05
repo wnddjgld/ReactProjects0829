@@ -1,0 +1,15 @@
+button{
+    color: black;
+    margin: 5px;
+    border-style: dashed;
+}
+
+.bg-red{
+    background-color: #5900ff;
+}
+.bg-blue{
+    background-color: #ff0000;
+}
+.bg-green{
+    background-color: #5eff00;
+}
