@@ -1,5 +1,5 @@
 import React from "react";
-import "./Notification.css"
+import "./Styles.css"
 // const styles={
 //     wrapper:{
 //         margin: 8,
@@ -24,10 +24,20 @@ class Notification extends React.Component{
 
         };
     }
+    componentDidMount(){
+        console.log(`${this.props.id}componentDidMount() called.`);
+    }
+    componentDidUpdate() {
+        console.log(`${this.props.id}componentDidUpdate() called.`);
+    }
+    componentWillUnmount() {
+        console.log(`${this.props.id}componentWillUnmount() called.`);
+    }
+
     render() {
         return(
-            <div className=".wrapper">
-                <span className=".messageText">
+            <div className="wrapper">
+                <span className="messageText">
                     {this.props.message}
                 </span>
             </div>
