@@ -14,11 +14,12 @@ import Clock from "./chp04/Clock";
 import CommentList from './chp05/CommentList'
 import NotificationList from "./chp06/NotificationList";
 import notification from "./chp06/Notification";
+import Accommodate from "./chp07/Accommodate";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <NotificationList />
+        <Accommodate/>
     </React.StrictMode>
 );
 
