@@ -15,11 +15,18 @@ import CommentList from './chp05/CommentList'
 import NotificationList from "./chp06/NotificationList";
 import notification from "./chp06/Notification";
 import Accommodate from "./chp07/Accommodate";
+import Toggle from "./chp08/Toggle";
+import Toggle2 from "./chp08/Toggle2";
+import ClickButton from "./chp08/ClickButton";
+import Counter from "./chp08/Counter";
+import InputTest from "./chp08/inputTest";
+import ConfirmButton from "./chp08/ConfirmButton";
+import ConfirmButton3 from "./chp08/ConfirmButton3";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <Accommodate/>
+        <ConfirmButton3 />
     </React.StrictMode>
 );
 
