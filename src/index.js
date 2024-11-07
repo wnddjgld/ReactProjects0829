@@ -22,11 +22,13 @@ import Counter from "./chp08/Counter";
 import InputTest from "./chp08/inputTest";
 import ConfirmButton from "./chp08/ConfirmButton";
 import ConfirmButton3 from "./chp08/ConfirmButton3";
+import Greeting from "./chp09/Greeting";
+import LoginControl from "./chp09/LoginControl";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <ConfirmButton3 />
+        <LoginControl/>
     </React.StrictMode>
 );
 

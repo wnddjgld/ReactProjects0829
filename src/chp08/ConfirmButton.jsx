@@ -1,6 +1,5 @@
 import React from "react";
 
-// bind 대신에 클래스 필드 문법으로 코드를 변경하시오
 class ConfirmButton extends React.Component{
     constructor(props) {
         super(props);
